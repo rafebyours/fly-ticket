@@ -1,13 +1,15 @@
 <template>
   <main>
-    <router-view/>
+    <router-view />
   </main>
 </template>
 
-<script setup>
-
+<script>
+export default {
+  // App.vue tidak lagi memerlukan komponen SplashScreen
+};
 </script>
 
 <style lang="scss" scoped>
-
+/* Tambahkan gaya global di sini jika diperlukan */
 </style>

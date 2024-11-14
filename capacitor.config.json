@@ -1,5 +1,10 @@
 {
   "appId": "com.tugas",
-  "appName": "tugas1-app",
-  "webDir": "dist"
+  "appName": "Tugas1-App",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
 }
